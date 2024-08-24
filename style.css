@@ -39,8 +39,12 @@ section .container .game .end img {
   width: 100px;
   height: 120px;
   cursor: pointer;
+  transition: all 0.1s ease-in-out;
 }
 
+section .container .game .end img:active {
+  transform: scale(0.9);
+}
 section .container .game .bottom .score {
   display: flex;
   gap: 20px;
