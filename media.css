@@ -1,0 +1,31 @@
+@media screen and (max-width: 1080px) {
+  section .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  section .container .game {
+    width: 70% !important;
+    height: 900px;
+  }
+  section .container .game .end img {
+    width: 180px !important;
+    height: 180px !important;
+  }
+  section .container .game .player img {
+    width: 180px !important;
+    height: 180px !important;
+  }
+
+  section .container .game .computer img {
+    width: 180px !important;
+    height: 180px !important;
+  }
+  section .container .game .bottom .score {
+    font-size: 35px;
+  }
+  section .container .game .bottom .score button {
+    font-size: 30px;
+    padding: 10px 30px;
+  }
+}
